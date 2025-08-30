@@ -2,8 +2,7 @@
 GAIA Kernel - The cognitive core of the General AI Architecture
 """
 
-from .core import GAIAKernel
+from .core import GAIAKernel, ModelState, CognitiveContext, ModelInstance
 from .attention import AttentionManager
-from .context import ContextManager
 
-__all__ = ['GAIAKernel', 'AttentionManager', 'ContextManager']
+__all__ = ['GAIAKernel', 'AttentionManager', 'ModelState', 'CognitiveContext', 'ModelInstance']

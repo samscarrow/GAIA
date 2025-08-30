@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "mcp__lmstudio-concurrent__multi_agent_query",
+      "Bash(source:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

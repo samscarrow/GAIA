@@ -2,7 +2,7 @@
 GAIA Memory - Associative memory systems
 """
 
-from .associative import AssociativeMemory
 from .semantic_graph import SemanticGraph
+from .hierarchical_memory import HierarchicalMemoryManager
 
-__all__ = ['AssociativeMemory', 'SemanticGraph']
+__all__ = ['SemanticGraph', 'HierarchicalMemoryManager']

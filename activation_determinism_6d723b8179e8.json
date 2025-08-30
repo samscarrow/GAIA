@@ -1,0 +1,319 @@
+{
+  "api_calls": [],
+  "resource_snapshots": [
+    {
+      "timestamp": 1756577217.286664,
+      "rss_mb": 42.140625,
+      "vms_mb": 402080.140625,
+      "cpu_percent": 0.0,
+      "heap_mb": 42.140625,
+      "thread_count": 2,
+      "file_descriptors": 6
+    }
+  ],
+  "spans": [
+    {
+      "span_id": "span_1",
+      "parent_id": null,
+      "name": "determinism_test_run_0",
+      "start_time": 1756577217.286703,
+      "end_time": 1756577217.288482,
+      "duration_ms": 1.7788410186767578,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_2",
+      "parent_id": null,
+      "name": "determinism_test_run_1",
+      "start_time": 1756577217.288487,
+      "end_time": 1756577217.2896671,
+      "duration_ms": 1.1801719665527344,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_3",
+      "parent_id": null,
+      "name": "determinism_test_run_2",
+      "start_time": 1756577217.2896729,
+      "end_time": 1756577217.2909179,
+      "duration_ms": 1.2450218200683594,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_4",
+      "parent_id": null,
+      "name": "determinism_test_run_3",
+      "start_time": 1756577217.290924,
+      "end_time": 1756577217.292146,
+      "duration_ms": 1.2218952178955078,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_5",
+      "parent_id": null,
+      "name": "determinism_test_run_4",
+      "start_time": 1756577217.292149,
+      "end_time": 1756577217.293182,
+      "duration_ms": 1.0328292846679688,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_6",
+      "parent_id": null,
+      "name": "determinism_test_run_5",
+      "start_time": 1756577217.293184,
+      "end_time": 1756577217.294222,
+      "duration_ms": 1.0380744934082031,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_7",
+      "parent_id": null,
+      "name": "determinism_test_run_6",
+      "start_time": 1756577217.2942238,
+      "end_time": 1756577217.2952719,
+      "duration_ms": 1.0480880737304688,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_8",
+      "parent_id": null,
+      "name": "determinism_test_run_7",
+      "start_time": 1756577217.295274,
+      "end_time": 1756577217.2963111,
+      "duration_ms": 1.0371208190917969,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_9",
+      "parent_id": null,
+      "name": "determinism_test_run_8",
+      "start_time": 1756577217.296312,
+      "end_time": 1756577217.297358,
+      "duration_ms": 1.0459423065185547,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_10",
+      "parent_id": null,
+      "name": "determinism_test_run_9",
+      "start_time": 1756577217.29736,
+      "end_time": 1756577217.2985,
+      "duration_ms": 1.1401176452636719,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_11",
+      "parent_id": null,
+      "name": "seed_variation_test",
+      "start_time": 1756577217.2985349,
+      "end_time": 1756577217.299618,
+      "duration_ms": 1.0831356048583984,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_12",
+      "parent_id": null,
+      "name": "seed_variation_test",
+      "start_time": 1756577217.299621,
+      "end_time": 1756577217.300759,
+      "duration_ms": 1.1379718780517578,
+      "status": "ok",
+      "attributes": {
+        "seed": 123,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_13",
+      "parent_id": null,
+      "name": "seed_variation_test",
+      "start_time": 1756577217.300761,
+      "end_time": 1756577217.3019588,
+      "duration_ms": 1.19781494140625,
+      "status": "ok",
+      "attributes": {
+        "seed": 789,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_14",
+      "parent_id": null,
+      "name": "context_test_0_run_0",
+      "start_time": 1756577217.301993,
+      "end_time": 1756577217.303166,
+      "duration_ms": 1.1730194091796875,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_15",
+      "parent_id": null,
+      "name": "context_test_0_run_1",
+      "start_time": 1756577217.303169,
+      "end_time": 1756577217.3042932,
+      "duration_ms": 1.1241436004638672,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_16",
+      "parent_id": null,
+      "name": "context_test_1_run_0",
+      "start_time": 1756577217.304298,
+      "end_time": 1756577217.305395,
+      "duration_ms": 1.096963882446289,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_17",
+      "parent_id": null,
+      "name": "context_test_1_run_1",
+      "start_time": 1756577217.305398,
+      "end_time": 1756577217.3064718,
+      "duration_ms": 1.0738372802734375,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_18",
+      "parent_id": null,
+      "name": "context_test_2_run_0",
+      "start_time": 1756577217.306476,
+      "end_time": 1756577217.30753,
+      "duration_ms": 1.0538101196289062,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_19",
+      "parent_id": null,
+      "name": "context_test_2_run_1",
+      "start_time": 1756577217.307532,
+      "end_time": 1756577217.308751,
+      "duration_ms": 1.219034194946289,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_20",
+      "parent_id": null,
+      "name": "context_test_3_run_0",
+      "start_time": 1756577217.3087559,
+      "end_time": 1756577217.309875,
+      "duration_ms": 1.1191368103027344,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    },
+    {
+      "span_id": "span_21",
+      "parent_id": null,
+      "name": "context_test_3_run_1",
+      "start_time": 1756577217.309877,
+      "end_time": 1756577217.310954,
+      "duration_ms": 1.0771751403808594,
+      "status": "ok",
+      "attributes": {
+        "seed": 42,
+        "config_hash": "6d723b8179e8"
+      },
+      "events": []
+    }
+  ],
+  "statistics": {
+    "total_calls": 0,
+    "successful_calls": 0,
+    "failed_calls": 0,
+    "success_rate": 0.0,
+    "method_latencies": {},
+    "resource_snapshots": 1,
+    "spans": 21
+  }
+}
